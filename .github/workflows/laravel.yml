@@ -31,7 +31,7 @@ jobs:
 
       - uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          php-version: '8.2'
           extensions: mbstring, xml, bcmath, curl, mysql, pdo_mysql
 
       - name: Copy .env
